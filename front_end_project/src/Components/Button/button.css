@@ -1,0 +1,44 @@
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #e07723;
+    font-size: 16px;
+    cursor: pointer;
+
+    
+  }
+  
+  button:hover {
+    background-color: #f2a769;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(242, 141, 53, 0.5);
+  }
+
+  @media (max-width: 768px) {
+    button {
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: #ffffff;
+        background-color: #e07723;
+        font-size: 16px;
+        cursor: pointer;
+        
+      }
+      
+      button:hover {
+        background-color: #e07723;
+      }
+      
+      button:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(242, 141, 53, 0.5);
+      }
+    
+  }
+  
